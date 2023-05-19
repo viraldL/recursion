@@ -1,3 +1,5 @@
+
+//fibonacci
 function fibs(n){
     let arr = [0, 1];
     if(n === 0) return [];
@@ -12,6 +14,8 @@ function fibs(n){
 
 console.log(fibs(10));
 
+
+//fibonacci recursive
 function fibsRec(n){
     if(n === 1) return [0];
     if(n === 2) return [0,1];
